@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from "react-router-dom";
 import Logo from '../img/logo-white.svg'
 import '../css/scss/utils/_settings.scss'
 import '../css/scss/utils/_utilsClass.scss'
@@ -15,14 +16,20 @@ class NavBar extends Component {
 					<nav>
 						<ul className="Navbar-menu">
 							<li className="Navbar-menu-item">
-								Projects
+								<Link to='/Projects'>Projects</Link>
 							</li>
-							<li className="Navbar-menu-item">My Tasks</li>
 							<li className="Navbar-menu-item">
-								Sign in
+								<Link to='/ToDoList'>My Tasks</Link>
 							</li>
-							<li className="Navbar-menu-item">Sign Out</li>
-							<li className="Navbar-menu-item outstandingColor">Registration</li>
+							<li className="Navbar-menu-item">
+								<Link to='/SignIn'>Sign in</Link>
+							</li>
+							<li className="Navbar-menu-item">
+								<Link to='/SignOut'>Sign Out</Link>
+							</li>
+							<li className="Navbar-menu-item outstandingColor">
+								<Link to='/Registration'>Registration</Link>
+							</li>
 						</ul>
 					</nav>
 				</div>
