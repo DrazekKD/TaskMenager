@@ -5,7 +5,7 @@ import Projects from "./Projects/Projects";
 import Registration from "./Registration/Registration";
 import SignIn from "./SignIn/SignIn";
 import SignOut from "./SignOut/SignOut";
-import * as ROUTES from "./../constants/routes"
+import * as ROUTES from "../../constants/routes"
 
 class DashBoard extends Component {
 	render() {

@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from "react-router-dom";
-import Logo from '../img/logo-white.svg'
-import '../css/scss/utils/_settings.scss'
-import '../css/scss/utils/_utilsClass.scss'
+import Logo from '../../img/logo-white.svg'
 import './NavBar.scss'
 
 class NavBar extends Component {

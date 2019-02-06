@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.scss';
-import NavBar from "./NavBar/NavBar";
-import DashBoard from "./DashBoard/DashBoard";
+import DashBoard from "./components/DashBoard/DashBoard";
+import NavBar from "./components/NavBar/NavBar";
 
 class App extends Component {
   render() {
