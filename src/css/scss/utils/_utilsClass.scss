@@ -1,0 +1,8 @@
+@import "settings";
+
+.outstandingColor {
+	color: $secondaryColor;
+	&:hover {
+		color: $secondaryColorLight;
+	}
+}
