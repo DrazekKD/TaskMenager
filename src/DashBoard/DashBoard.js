@@ -5,18 +5,18 @@ import Projects from "./Projects/Projects";
 import Registration from "./Registration/Registration";
 import SignIn from "./SignIn/SignIn";
 import SignOut from "./SignOut/SignOut";
-
+import * as ROUTES from "./../constants/routes"
 
 class DashBoard extends Component {
 	render() {
 		return (
 			<div className="DashBoard">
 				<Switch>
-					<Route path='/MyTask' component={MyTasks}></Route>
-					<Route path='/Projects' component={Projects}></Route>
-					<Route path='/SignIn' component={SignIn}></Route>
-					<Route path='/SignOut' component={SignOut}></Route>
-					<Route path='/Registration' component={Registration}></Route>
+					<Route path={ROUTES.MY_TASK} component={MyTasks}></Route>
+					<Route path={ROUTES.PROJECTS} component={Projects}></Route>
+					<Route path={ROUTES.SIGN_IN} component={SignIn}></Route>
+					<Route path={ROUTES.SIGN_OUT} component={SignOut}></Route>
+					<Route path={ROUTES.REGISTRATION} component={Registration}></Route>
 				</Switch>
 			</div>
 		);
