@@ -25,12 +25,14 @@
 			padding: 0 15px;
 			letter-spacing: 1.5px;
 			text-transform: uppercase;
-			transition: all .2s;
 			cursor: pointer;
-			&:hover{
-				color: $secondaryColor;
-				transform: scale(.9) translateY(-2px);
-
+			a {
+				color: $textColor;
+				&:hover{
+					transition: all .2s;
+					color: $secondaryColor;
+					transform: scale(.9) translateY(-2px);
+				}
 			}
 		}
 	}
