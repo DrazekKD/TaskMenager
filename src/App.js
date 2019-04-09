@@ -4,7 +4,7 @@ import DashBoard from "./components/DashBoard/DashBoard";
 import NavBar from "./components/NavBar/NavBar";
 
 import { composeWithDevTools} from "redux-devtools-extension";
-import { createStore, combineReducers } from "redux"
+import { createStore, combineReducers, bindActionCreators } from "redux"
 
 const initialTasks = {
 	list: [
@@ -20,9 +20,9 @@ const insitailProjects = {
 
 function tasks(state = initialTasks, action) {
 	switch (action.type){
-		case 'ADD':
-			return {...state, list:[...state.list, action.movie]};
-		case 'RESET':
+		case 'ADD_TASK':
+			return {...state, list:[...state.list, action.item]};
+		case 'RESET_TASK':
 			return {...state,list:[]};
 		default:
 			return state
@@ -32,7 +32,7 @@ function tasks(state = initialTasks, action) {
 function projects(state = insitailProjects, action) {
 	switch (action.type) {
 		case 'ADD_PROJECT':
-			return {...state, list:[...state.list, action.movie]};
+			return {...state, list:[...state.list, action.item]};
 		case  'RESET_PROJECT':
 			return {...state, list:[]};
 		default:
@@ -43,6 +43,11 @@ function projects(state = insitailProjects, action) {
 const allReducers = combineReducers({tasks, projects});
 
 const store = createStore(allReducers, composeWithDevTools());
+const addTask = item => ({type: 'ADD_TASK', item});
+
+const actionsTasks = bindActionCreators({add: addTask}, store.dispatch);
+
+actionsTasks.add('CS');
 
 window.store = store;
 
