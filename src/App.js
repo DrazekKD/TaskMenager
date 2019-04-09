@@ -4,28 +4,45 @@ import DashBoard from "./components/DashBoard/DashBoard";
 import NavBar from "./components/NavBar/NavBar";
 
 import { composeWithDevTools} from "redux-devtools-extension";
-import { createStore } from "redux"
+import { createStore, combineReducers } from "redux"
 
 const initialTasks = {
-	project:['Dev','Msw'],
-	tasks: [
+	list: [
 		'Work', 'House', 'Job'
 	]
 };
 
-function tasks(state = initialTasks , action) {
+const insitailProjects = {
+	list: [
+		'Dev','Msw'
+	]
+};
+
+function tasks(state = initialTasks, action) {
 	switch (action.type){
 		case 'ADD':
-			return{...state, tasks:[...state.tasks, action.movie]}
-			break;
+			return {...state, list:[...state.list, action.movie]};
 		case 'RESET':
-			return {...state,tasks:[]};
+			return {...state,list:[]};
 		default:
 			return state
 	}
 }
 
-const store = createStore(tasks, composeWithDevTools());
+function projects(state = insitailProjects, action) {
+	switch (action.type) {
+		case 'ADD_PROJECT':
+			return {...state, list:[...state.list, action.movie]};
+		case  'RESET_PROJECT':
+			return {...state, list:[]};
+		default:
+			return state
+	}
+}
+
+const allReducers = combineReducers({tasks, projects});
+
+const store = createStore(allReducers, composeWithDevTools());
 
 window.store = store;
 
