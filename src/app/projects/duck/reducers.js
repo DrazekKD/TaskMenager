@@ -12,6 +12,8 @@ const projectsReducer = (state = INITIAL_STATE, action) => {
 			return {...state, list:[...state.list, action.item]};
 		case  types.RESET_PROJECT:
 			return {...state, list:[]};
+		case types.DELETE_PROJECT:
+			return{...state, list:[...state.list].filter(el => el !== action.item)};
 		default:
 			return state
 	}

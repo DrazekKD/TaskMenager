@@ -11,7 +11,7 @@ import { projectActions } from './app/projects/duck'
 const store = createStore(rootReducer, composeWithDevTools());
 window.store = store;
 
-store.dispatch(projectActions.add('adasa'));
+console.log(projectActions)
 class App extends Component {
   render() {
     return (

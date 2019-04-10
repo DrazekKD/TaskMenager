@@ -8,7 +8,12 @@ const reset = item => ({
 	type: types.RESET_PROJECT, item
 });
 
+const del = item => ({
+	type: types.DELETE_PROJECT, item
+});
+
 export default {
 	add,
-	reset
+	reset,
+	del
 }
