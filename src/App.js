@@ -4,53 +4,14 @@ import DashBoard from "./components/DashBoard/DashBoard";
 import NavBar from "./components/NavBar/NavBar";
 
 import { composeWithDevTools} from "redux-devtools-extension";
-import { createStore, combineReducers, bindActionCreators } from "redux"
+import { createStore } from "redux"
+import rootReducer from'./reducers'
+import { projectActions } from './app/projects/duck'
 
-const initialTasks = {
-	list: [
-		'Work', 'House', 'Job'
-	]
-};
-
-const insitailProjects = {
-	list: [
-		'Dev','Msw'
-	]
-};
-
-function tasks(state = initialTasks, action) {
-	switch (action.type){
-		case 'ADD_TASK':
-			return {...state, list:[...state.list, action.item]};
-		case 'RESET_TASK':
-			return {...state,list:[]};
-		default:
-			return state
-	}
-}
-
-function projects(state = insitailProjects, action) {
-	switch (action.type) {
-		case 'ADD_PROJECT':
-			return {...state, list:[...state.list, action.item]};
-		case  'RESET_PROJECT':
-			return {...state, list:[]};
-		default:
-			return state
-	}
-}
-
-const allReducers = combineReducers({tasks, projects});
-
-const store = createStore(allReducers, composeWithDevTools());
-const addTask = item => ({type: 'ADD_TASK', item});
-
-const actionsTasks = bindActionCreators({add: addTask}, store.dispatch);
-
-actionsTasks.add('CS');
-
+const store = createStore(rootReducer, composeWithDevTools());
 window.store = store;
 
+store.dispatch(projectActions.add('adasa'));
 class App extends Component {
   render() {
     return (
