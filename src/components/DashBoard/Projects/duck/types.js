@@ -1,0 +1,7 @@
+const ADD_PROJECT = 'ADD_PROJECT';
+const RESET_PROJECT = 'RESET_PROJECT';
+
+export default {
+	ADD_PROJECT,
+	RESET_PROJECT
+}

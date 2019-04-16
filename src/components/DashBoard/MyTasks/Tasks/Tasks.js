@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 
 const Tasks = ({tasks}) =>(
   <ul>
-    {tasks.list.map(tasks => <li>{tasks}</li>)}
+    {tasks.list.map(tasks => <li>{tasks.name}</li>)}
   </ul>);
 
 const mapStateToProps = (state) => ({

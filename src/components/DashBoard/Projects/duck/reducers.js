@@ -4,30 +4,27 @@ import types from './types';
 const INITIAL_STATE = {
 	list: [
 		{
-			name: 'Tom Hanks',
-			project:'JS',
+			name: 'JS',
 			id: 1,
 		},
 		{
-			name: 'Tom Hanks',
-			project:'PHP',
+			name: 'PHP',
 			id: 2,
 		},
 		{
-			name: 'Tom Hanks',
-			project:'PY',
+			name: 'PY',
 			id: 2,
 		},
 	],
 };
 
-const tasksReducer = (state = INITIAL_STATE, action) => {
+const projectsReducer = (state = INITIAL_STATE, action) => {
 	switch (action.type) {
-		case types.ADD_TASK:
+		case types.ADD_PROJECT:
 			return {
 				...state, list: [...state.list, action.item],
 			};
-		case types.RESET_TASK:
+		case types.RESET_PROJECT:
 			return {
 				...state, list: [],
 			};
@@ -36,4 +33,4 @@ const tasksReducer = (state = INITIAL_STATE, action) => {
 	}
 };
 
-export default tasksReducer;
+export default projectsReducer;
