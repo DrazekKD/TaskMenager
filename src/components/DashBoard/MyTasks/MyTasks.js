@@ -1,14 +1,16 @@
-import React, { Component } from 'react';
-import './MyTasks.scss';
+import React from 'react'
+import { connect } from 'react-redux'
 
-class MyTasks extends Component{
-	render() {
-		return (
-			<div className="MyTasks">
-				<h1>MyTasks</h1>
-			</div>
-		);
-	}
-}
+const MyTasks = ({tasks}) =>
+	<ul>
+		{tasks.list.map(tasks => <li>{tasks}</li>)}
+	</ul>
 
-export default MyTasks;
+const mapStateToProps = (state) => ({
+	tasks: state.tasks
+})
+
+export default connect(
+	mapStateToProps, {}
+)(MyTasks)
+

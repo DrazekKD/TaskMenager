@@ -17,7 +17,7 @@ class NavBar extends Component {
 								<Link to='/Projects'>Projects</Link>
 							</li>
 							<li className="Navbar-menu-item">
-								<Link to='/ToDoList'>My Tasks</Link>
+								<Link to='/MyTasks'>My Tasks</Link>
 							</li>
 							<li className="Navbar-menu-item">
 								<Link to='/SignIn'>Sign in</Link>

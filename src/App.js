@@ -3,15 +3,6 @@ import './App.scss';
 import DashBoard from "./components/DashBoard/DashBoard";
 import NavBar from "./components/NavBar/NavBar";
 
-import { composeWithDevTools} from "redux-devtools-extension";
-import { createStore } from "redux"
-import rootReducer from'./reducers'
-import { projectActions } from './app/projects/duck'
-
-const store = createStore(rootReducer, composeWithDevTools());
-window.store = store;
-
-console.log(projectActions)
 class App extends Component {
   render() {
     return (
