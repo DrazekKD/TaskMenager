@@ -10,4 +10,4 @@ const mapStateToProps = (state) => ({
   tasks: state.tasks
 })
 
-export default connect(mapStateToProps,null)(Tasks)
+export default connect(mapStateToProps)(Tasks)
