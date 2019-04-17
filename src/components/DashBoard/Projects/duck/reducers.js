@@ -13,7 +13,7 @@ const INITIAL_STATE = {
 		},
 		{
 			name: 'PY',
-			id: 2,
+			id: 3,
 		},
 	],
 };
@@ -23,6 +23,10 @@ const projectsReducer = (state = INITIAL_STATE, action) => {
 		case types.ADD_PROJECT:
 			return {
 				...state, list: [...state.list, action.item],
+			};
+		case types.DELETE_PROJECT:
+			return{
+				...state, list:[...state.list.filter((item) => { return item.id !== action.item.id;})]
 			};
 		case types.RESET_PROJECT:
 			return {

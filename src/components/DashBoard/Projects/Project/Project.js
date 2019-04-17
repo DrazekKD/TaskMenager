@@ -1,13 +1,23 @@
-import React from 'react'
-import { connect } from 'react-redux'
+import React from 'react';
+import {connect} from 'react-redux';
+import DeleteButton from '../../../Utils/DeleteButton/DeleteButton';
 
-const Project = ({projects}) =>(
-	<ul>
-		{projects.list.map(project => <li>{project.name}</li>)}
-	</ul>);
+
+const Project = ({del,projects}) => {
+
+	return (
+		<div>
+			{projects.list.map(project => <div key={project.id}>
+				{project.name}
+				<DeleteButton name={project.id}/>
+			</div>)}
+		</div>
+	);
+};
 
 const mapStateToProps = (state) => ({
-	projects: state.projects
+	projects: state.projects,
 });
 
-export default connect(mapStateToProps)(Project)
+
+export default connect(mapStateToProps)(Project);

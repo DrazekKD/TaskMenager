@@ -7,15 +7,18 @@ const AddProjectForm = ({add,projects}) => {
 	const getLastElementId = (projects) => {
 		return projects.list[projects.list.length-1].id
 	};
-	const addTask = (event) => {
+	const addProject = (event) => {
 		event.preventDefault();
-		add({name:AddProjectInput.current.value,id:getLastElementId(projects)+1});
+		add({
+			id:getLastElementId(projects)+1,
+			name:AddProjectInput.current.value
+		});
 		AddProjectInput.current.value = ''
 	};
 
-	return <form onSubmit={addTask}>
+	return <form onSubmit={addProject}>
 		<input ref={AddProjectInput}/>
-		<button type='submit'>Add movie</button>
+		<button type='submit'>Add Project</button>
 	</form>
 };
 

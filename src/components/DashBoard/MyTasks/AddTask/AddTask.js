@@ -1,33 +1,44 @@
-import React from 'react'
+import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import actions from '../duck/actions'
 
-const AddTaskForm = ({add,tasks,projects}) => {
-	const AddTaskNameInput = React.createRef();
-	const ProjectsSelect = React.createRef();
-	const getLastElementId = (tasks) => {
-		return tasks.list[tasks.list.length-1].id
-	};
-	const addTask = (event) => {
-		event.preventDefault();
-		add({
-			id:getLastElementId(tasks)+1,
-			name:AddTaskNameInput.current.value,
-			projects:ProjectsSelect.current.value
+class AddTaskForm extends Component{
+	constructor(props){
+		super(props);
+		this.state ={
+			disabledSubmit: true
+		}
+	}
+	render(){
+		const AddTaskNameInput = React.createRef();
+		const ProjectsSelect = React.createRef();
+		const getLastElementId = (tasks) => {
+			return tasks.list[tasks.list.length-1].id
+		};
+		const addTask = (event) => {
+			event.preventDefault();
+			this.props.add({
+				id:getLastElementId(this.props.tasks)+1,
+				name:AddTaskNameInput.current.value,
+				projects:ProjectsSelect.current.value
+			});
+			AddTaskNameInput.current.value = ''
+		};
 
-		});
-		AddTaskNameInput.current.value = ''
-	};
-	//@todo Add disabled verification in submit button
-	return <form onSubmit={addTask}>
-		<input ref={AddTaskNameInput}/>
-		<button type='submit' disabled={false}>Add movie</button>
-		<select ref={ProjectsSelect}>
-			{projects.list.map((project)=>(
-				<option value={project.name}>{project.name}</option>
-			))}
-		</select>
-	</form>
+		const setDisabledSubmit = (event) => this.setState({disabledSubmit:event.target.value.length === 0});
+
+		return (
+			<form onSubmit={addTask}>
+				<input ref={AddTaskNameInput} onChange={(e)=>setDisabledSubmit(e)}/>
+				<button type='submit' disabled={this.state.disabledSubmit}>Add movie</button>
+				<select ref={ProjectsSelect}>
+					{this.props.projects.list.map((project)=>(
+						<option value={project.name} key={project.id}>{project.name}</option>
+					))}
+				</select>
+			</form>
+		)
+	}
 };
 
 const mapDispatchToProps = dispatch => ({
