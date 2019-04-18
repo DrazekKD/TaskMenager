@@ -25,9 +25,12 @@ const projectsReducer = (state = INITIAL_STATE, action) => {
 				...state, list: [...state.list, action.item],
 			};
 		case types.DELETE_PROJECT:
-			console.log(action.item.project.id);
-			return{
-				...state, list:[...state.list.filter(item => item.id !== action.item.project.id)]
+			return {
+				...state, list: [...state.list.filter(item => item.id !== action.item.project.id)],
+			};
+		case types.RENAME_PROJECT:
+			return {
+				...state, list: [...state.list.map(item => item.id === action.item.id? action.item : item)],
 			};
 		case types.RESET_PROJECT:
 			return {

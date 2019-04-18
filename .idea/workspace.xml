@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9152c5f3-664b-4c2f-91d3-28dc2338947f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DashBoard/MyTasks/Tasks/Tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DashBoard/MyTasks/Tasks/Tasks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DashBoard/Projects/Project/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DashBoard/Projects/Project/Project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DashBoard/Projects/duck/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DashBoard/Projects/duck/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DashBoard/Projects/duck/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DashBoard/Projects/duck/reducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DashBoard/Projects/duck/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DashBoard/Projects/duck/types.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,21 +18,12 @@
     <favorites_list name="my-app" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/Project/Project.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/DashBoard/MyTasks/Tasks/Tasks.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            <state relative-caret-position="95">
+              <caret line="8" column="87" lean-forward="true" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -39,10 +32,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Utils/DeleteButton/DeleteButton.js">
+        <entry file="file://$PROJECT_DIR$/src/components/DashBoard/MyTasks/Tasks/Tasks.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
-              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/duck/actions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/AddProject/AddProject.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/duck/reducers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="32" column="108" lean-forward="true" selection-start-line="32" selection-start-column="108" selection-end-line="32" selection-end-column="108" />
             </state>
           </provider>
         </entry>
@@ -82,9 +108,6 @@
         <option value="$PROJECT_DIR$/src/reducers.js" />
         <option value="$PROJECT_DIR$/src/components/DashBoard/Projects/Project/Projects.js" />
         <option value="$PROJECT_DIR$/src/components/Utils/DeleteButton/Deletebutton.js" />
-        <option value="$PROJECT_DIR$/src/components/DashBoard/Projects/duck/actions.js" />
-        <option value="$PROJECT_DIR$/src/components/DashBoard/Projects/duck/types.js" />
-        <option value="$PROJECT_DIR$/src/components/DashBoard/Projects/duck/reducers.js" />
         <option value="$PROJECT_DIR$/src/components/Utils/functions/functions.js" />
         <option value="$PROJECT_DIR$/src/components/DashBoard/Projects/AddProject/AddProject.js" />
         <option value="$PROJECT_DIR$/src/components/DashBoard/MyTasks/duck/actions.js" />
@@ -93,8 +116,11 @@
         <option value="$PROJECT_DIR$/src/components/DashBoard/MyTasks/AddTask/AddTask.js" />
         <option value="$PROJECT_DIR$/src/components/DashBoard/MyTasks/duck/reducers.js" />
         <option value="$PROJECT_DIR$/src/components/Utils/DeleteButton/DeleteButton.js" />
-        <option value="$PROJECT_DIR$/src/components/DashBoard/Projects/Project/Project.js" />
+        <option value="$PROJECT_DIR$/src/components/DashBoard/Projects/duck/types.js" />
+        <option value="$PROJECT_DIR$/src/components/DashBoard/Projects/duck/actions.js" />
+        <option value="$PROJECT_DIR$/src/components/DashBoard/Projects/duck/reducers.js" />
         <option value="$PROJECT_DIR$/src/components/DashBoard/MyTasks/Tasks/Tasks.js" />
+        <option value="$PROJECT_DIR$/src/components/DashBoard/Projects/Project/Project.js" />
       </list>
     </option>
   </component>
@@ -119,6 +145,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="TaskMenager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="TaskMenager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TaskMenager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TaskMenager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="tasks" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TaskMenager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="tasks" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="duck" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,6 +229,32 @@
               <item name="TaskMenager" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="DashBoard" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TaskMenager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaskMenager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="DashBoard" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="AddProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TaskMenager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaskMenager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="DashBoard" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="duck" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TaskMenager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaskMenager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -175,43 +264,6 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Utils" type="462c0819:PsiDirectoryNode" />
               <item name="DeleteButton" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="TaskMenager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="TaskMenager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="TaskMenager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="TaskMenager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="tasks" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="TaskMenager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="tasks" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="duck" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -285,7 +337,8 @@
       <workItem from="1555306265817" duration="917000" />
       <workItem from="1555393857797" duration="15504000" />
       <workItem from="1555481921435" duration="6446000" />
-      <workItem from="1555566012312" duration="4839000" />
+      <workItem from="1555566012312" duration="4969000" />
+      <workItem from="1555583279877" duration="5944000" />
     </task>
     <task id="LOCAL-00001" summary="clean react SaSS">
       <created>1549401075894</created>
@@ -371,11 +424,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555570116136</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Refactor DeleteButton to some reusable component">
+      <created>1555570943303</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1555570943303</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42298000" />
+    <option name="totallyTimeSpent" value="48372000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,7 +450,7 @@
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4981685" visible="true" weight="0.27374598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4981685" visible="true" weight="0.2769477" />
       <window_info id="Structure" order="1" sideWeight="0.50183153" side_tool="true" weight="0.24964234" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.50183153" side_tool="true" weight="0.24919957" />
@@ -469,7 +529,8 @@
     <MESSAGE value="Added Project add" />
     <MESSAGE value="added blocked button submit if value task empty" />
     <MESSAGE value="added blocked button submit if value task empty in Project&#10;delete projects and tasks" />
-    <option name="LAST_COMMIT_MESSAGE" value="added blocked button submit if value task empty in Project&#10;delete projects and tasks" />
+    <MESSAGE value="Refactor DeleteButton to some reusable component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor DeleteButton to some reusable component" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/app/tasks/duck/index.js" />
@@ -599,34 +660,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/duck/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/duck/types.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/duck/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Utils/functions/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Utils/functions/functions.js" />
     <entry file="file://$PROJECT_DIR$/src/components/DashBoard/MyTasks/duck/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -685,16 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/AddProject/AddProject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/DashBoard/MyTasks/AddTask/AddTask.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -712,13 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/duck/reducers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" column="61" lean-forward="true" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Utils/DeleteButton/DeleteButton.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -726,17 +743,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/Project/Project.js">
+    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/duck/types.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="67" />
+        <state relative-caret-position="63">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/AddProject/AddProject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/duck/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/duck/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/duck/reducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="32" column="108" lean-forward="true" selection-start-line="32" selection-start-column="108" selection-end-line="32" selection-end-column="108" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/DashBoard/MyTasks/Tasks/Tasks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="147">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/Project/Project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="87" lean-forward="true" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
