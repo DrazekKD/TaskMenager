@@ -27,6 +27,10 @@ const tasksReducer = (state = INITIAL_STATE, action) => {
 			return {
 				...state, list: [...state.list, action.item],
 			};
+		case types.DELETE_TASK:
+		return {
+			...state, list: [...state.list.filter(item => item.id !== action.item.task.id)]
+		};
 		case types.RESET_TASK:
 			return {
 				...state, list: [],

@@ -12,8 +12,11 @@ class AddTaskForm extends Component{
 	render(){
 		const AddTaskNameInput = React.createRef();
 		const ProjectsSelect = React.createRef();
-		const getLastElementId = (tasks) => {
-			return tasks.list[tasks.list.length-1].id
+		const getLastElementId = (projects) => {
+			if (projects.list.length !== 0)
+				return projects.list[projects.list.length - 1].id;
+			else
+				return 0;
 		};
 		const addTask = (event) => {
 			event.preventDefault();
