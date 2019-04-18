@@ -1,5 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
+import DeleteButton from '../../../Utils/DeleteButton/DeleteButton';
 import actions from "../duck/actions";
 
 const Tasks = ({del, tasks}) => {
@@ -8,9 +9,7 @@ const Tasks = ({del, tasks}) => {
 		<div>
 			{tasks.list.map(task =>
 				<div key={task.id}>{task.name}
-					<div>
-						<input key={task.id} type="button" value={task.id} onClick={() => deleteTask(task)}/>
-					</div>
+					<DeleteButton id={task.id} click={() => deleteTask(task)}/>
 				</div>,
 			)}
 		</div>
