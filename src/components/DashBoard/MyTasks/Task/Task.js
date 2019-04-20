@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import DeleteButton from '../../../Utils/DeleteButton/DeleteButton';
 import CompletedButton from '../CompletedButton/CompletedButton'
 import actions from "../duck/actions";
+import {Link} from "react-router-dom";
 
 
 
@@ -42,10 +43,11 @@ class Task extends Component  {
 							>{project.name}</option>
 						))}
 					</select>
-					<DeleteButton
-						id={task.id}
-						click={() => deleteTask(task)}
-					/>
+					<Link to ={'/MyTasks'}>
+						<DeleteButton
+							id={task.id}
+							click={() => deleteTask(task)}/>
+					</Link>
 					<CompletedButton
 						isCompeted={task.isCompeted}
 						click={() => completedTask(task)}/>
