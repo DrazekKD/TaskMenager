@@ -7,18 +7,21 @@ const INITIAL_STATE = {
 			name: 'Tom Hanks',
 			project:'JS',
 			isCompeted: false,
+			description:'Description',
 			id: '1',
 		},
 		{
 			name: 'Tom Hanks',
 			project:'PHP',
 			isCompeted: false,
+			description:'Description',
 			id: '2',
 		},
 		{
 			name: 'Tom Hanks',
 			project:'PY',
 			isCompeted: false,
+			description:'Description',
 			id: '3',
 		},
 	],
@@ -34,7 +37,7 @@ const tasksReducer = (state = INITIAL_STATE, action) => {
 			return {
 				...state, list: [...state.list.filter(item => item.id !== action.item.task.id)]
 			};
-		case types.RENAME_TASK:
+		case types.CHANGE_ELEMENT_TASK:
 			return {
 				...state, list: [...state.list.map(item => item.id === action.item.id? action.item : item)],
 			};

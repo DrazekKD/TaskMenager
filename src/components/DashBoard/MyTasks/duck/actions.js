@@ -7,8 +7,8 @@ const add = item => ({
 const del = item => ({
 	type: types.DELETE_TASK, item,
 });
-const rename = item => ({
-	type: types.RENAME_TASK, item
+const changeElement = item => ({
+	type: types.CHANGE_ELEMENT_TASK, item
 });
 
 const completed = item => ({
@@ -23,7 +23,7 @@ const reset = item => ({
 export default {
 	add,
 	del,
-	rename,
+	changeElement,
 	completed,
 	reset,
 };

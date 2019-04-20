@@ -1,7 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {Link,Route,Switch} from "react-router-dom";
-import Task from "../Task/Task";
+import {Link} from "react-router-dom";
 
 const Tasks = ({tasks}) => {
 	return (
@@ -13,9 +12,6 @@ const Tasks = ({tasks}) => {
 						</div>
 					</Link>
 			)}
-			<Switch>
-				<Route path={`/MyTasks/:id`} component={Task}/>
-			</Switch>
 		</div>
 	);
 };
