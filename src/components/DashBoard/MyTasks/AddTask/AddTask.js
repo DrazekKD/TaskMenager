@@ -23,7 +23,8 @@ class AddTaskForm extends Component{
 			this.props.add({
 				id:getLastElementId(this.props.tasks)+1,
 				name:AddTaskNameInput.current.value,
-				projects:ProjectsSelect.current.value
+				projects:ProjectsSelect.current.value,
+				isConnected: false
 			});
 			AddTaskNameInput.current.value = ''
 		};

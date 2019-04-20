@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {Link} from "react-router-dom";
 import Logo from '../../img/logo-white.svg'
 import './NavBar.scss'
-
 class NavBar extends Component {
 	 render() {
 		return (

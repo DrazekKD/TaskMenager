@@ -14,7 +14,7 @@ const Project = ({del,rename,projects}) => {
 					<input
 						key={project.id}
 						value={project.name}
-						onChange={(e)=> changeProjectName(e,project)}></input>
+						onChange={(e)=> changeProjectName(e,project)}/>
 					<DeleteButton id={project.id} click={() => deleteProject(project)}/>
 				</div>)}
 		</div>
