@@ -21,7 +21,7 @@ class AddTaskForm extends Component{
 		const addTask = (event) => {
 			event.preventDefault();
 			this.props.add({
-				id:getLastElementId(this.props.tasks)+1,
+				id:(parseInt(getLastElementId(this.props.tasks))+1).toString(),
 				name:AddTaskNameInput.current.value,
 				projects:ProjectsSelect.current.value,
 				isConnected: false

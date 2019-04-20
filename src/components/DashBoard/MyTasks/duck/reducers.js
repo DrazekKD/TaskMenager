@@ -7,19 +7,19 @@ const INITIAL_STATE = {
 			name: 'Tom Hanks',
 			project:'JS',
 			isCompeted: false,
-			id: 1,
+			id: '1',
 		},
 		{
 			name: 'Tom Hanks',
 			project:'PHP',
 			isCompeted: false,
-			id: 2,
+			id: '2',
 		},
 		{
 			name: 'Tom Hanks',
 			project:'PY',
 			isCompeted: false,
-			id: 3,
+			id: '3',
 		},
 	],
 };
