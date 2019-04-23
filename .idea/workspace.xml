@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9152c5f3-664b-4c2f-91d3-28dc2338947f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/DashBoard/DashBoard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DashBoard/MyTasks/Task/Task.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DashBoard/Projects/Project/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DashBoard/Projects/Project/Project.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DashBoard/Projects/duck/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DashBoard/Projects/duck/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DashBoard/Projects/duck/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DashBoard/Projects/duck/reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DashBoard/Projects/duck/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DashBoard/Projects/duck/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DashBoard/DashBoard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DashBoard/DashBoard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DashBoard/MyTasks/MyTasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DashBoard/MyTasks/MyTasks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DashBoard/MyTasks/MyTasks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DashBoard/MyTasks/MyTasks.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DashBoard/MyTasks/Task/Task.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DashBoard/MyTasks/Task/Task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,12 +27,93 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/Project/Project.js">
+        <entry file="file://$PROJECT_DIR$/src/App.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="8" column="87" lean-forward="true" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
+            <state relative-caret-position="126">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="12" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/DashBoard/DashBoard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/DashBoard/DashBoard.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/DashBoard/MyTasks/MyTasks.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/DashBoard/MyTasks/MyTasks.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/DashBoard/MyTasks/Task/Task.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/DashBoard/MyTasks/Task/Task.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -34,41 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/DashBoard/MyTasks/Tasks/Tasks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/duck/actions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/AddProject/AddProject.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/duck/reducers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="32" column="108" lean-forward="true" selection-start-line="32" selection-start-column="108" selection-end-line="32" selection-end-column="108" />
+            <state relative-caret-position="105">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -80,6 +135,11 @@
       <find>react</find>
       <find>BrowserRouter</find>
       <find>add</find>
+      <find>tasks</find>
+      <find>Task</find>
+      <find>header</find>
+      <find>task</find>
+      <find>MyTasks</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,13 +156,11 @@
         <option value="$PROJECT_DIR$/src/app/projects/duck/types.js" />
         <option value="$PROJECT_DIR$/src/app/projects/duck/action.js" />
         <option value="$PROJECT_DIR$/src/app/projects/duck/reducers.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/NavBar/NavBar.js" />
         <option value="$PROJECT_DIR$/src/constants/routes.js" />
         <option value="$PROJECT_DIR$/src/components/DashBoard/MyTasks/Tasks/MoviesContainer.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/components/DashBoard/MyTasks/MyTasks.js" />
         <option value="$PROJECT_DIR$/src/components/DashBoard/Projects/duck/index.js" />
         <option value="$PROJECT_DIR$/src/components/DashBoard/MyTasks/duck/index.js" />
         <option value="$PROJECT_DIR$/src/reducers.js" />
@@ -121,6 +179,17 @@
         <option value="$PROJECT_DIR$/src/components/DashBoard/Projects/duck/reducers.js" />
         <option value="$PROJECT_DIR$/src/components/DashBoard/MyTasks/Tasks/Tasks.js" />
         <option value="$PROJECT_DIR$/src/components/DashBoard/Projects/Project/Project.js" />
+        <option value="$PROJECT_DIR$/src/components/NavBar/NavBar.scss" />
+        <option value="$PROJECT_DIR$/src/components/Header/Header.js" />
+        <option value="$PROJECT_DIR$/src/components/Header/Header.scss" />
+        <option value="$PROJECT_DIR$/src/components/DashBoard/DashBoard.js" />
+        <option value="$PROJECT_DIR$/src/components/DashBoard/MyTasks/MyTasks.scss" />
+        <option value="$PROJECT_DIR$/src/components/DashBoard/MyTasks/MyTasks.js" />
+        <option value="$PROJECT_DIR$/src/components/DashBoard/MyTasks/Task/Task.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/DashBoard/MyTasks/Task/Task.scss" />
+        <option value="$PROJECT_DIR$/src/components/DashBoard/DashBoard.scss" />
+        <option value="$PROJECT_DIR$/src/App.scss" />
       </list>
     </option>
   </component>
@@ -145,6 +214,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TaskMenager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaskMenager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TaskMenager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaskMenager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TaskMenager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaskMenager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TaskMenager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaskMenager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="DashBoard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TaskMenager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaskMenager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="DashBoard" type="462c0819:PsiDirectoryNode" />
+              <item name="MyTasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -182,93 +288,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TaskMenager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskMenager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TaskMenager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskMenager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TaskMenager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskMenager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TaskMenager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskMenager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="DashBoard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TaskMenager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskMenager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="DashBoard" type="462c0819:PsiDirectoryNode" />
-              <item name="MyTasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TaskMenager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskMenager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="DashBoard" type="462c0819:PsiDirectoryNode" />
-              <item name="MyTasks" type="462c0819:PsiDirectoryNode" />
-              <item name="Tasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TaskMenager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskMenager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="DashBoard" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TaskMenager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskMenager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="DashBoard" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="AddProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TaskMenager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskMenager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="DashBoard" type="462c0819:PsiDirectoryNode" />
-              <item name="Projects" type="462c0819:PsiDirectoryNode" />
-              <item name="duck" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TaskMenager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskMenager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TaskMenager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskMenager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
-              <item name="DeleteButton" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,6 +303,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/DashBoard/MyTasks/Task" />
       <recent name="$PROJECT_DIR$/src/components/DashBoard/Projects/duck" />
       <recent name="$PROJECT_DIR$/src/components/DashBoard/MyTasks/Tasks" />
       <recent name="$PROJECT_DIR$/src" />
@@ -338,7 +358,8 @@
       <workItem from="1555393857797" duration="15504000" />
       <workItem from="1555481921435" duration="6446000" />
       <workItem from="1555566012312" duration="4969000" />
-      <workItem from="1555583279877" duration="5944000" />
+      <workItem from="1555583279877" duration="6861000" />
+      <workItem from="1555999390937" duration="2593000" />
     </task>
     <task id="LOCAL-00001" summary="clean react SaSS">
       <created>1549401075894</created>
@@ -431,11 +452,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555570943303</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added function to change name of project">
+      <created>1555593193312</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1555593193312</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48372000" />
+    <option name="totallyTimeSpent" value="51882000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -450,13 +478,36 @@
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4981685" visible="true" weight="0.2769477" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4981685" visible="true" weight="0.2801494" />
       <window_info id="Structure" order="1" sideWeight="0.50183153" side_tool="true" weight="0.24964234" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.50183153" side_tool="true" weight="0.24919957" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32979852" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32979852" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32770607" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32767764" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2682927" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4981685" visible="true" weight="0.2801494" />
+      <window_info id="Structure" order="1" sideWeight="0.50183153" side_tool="true" weight="0.24964234" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.50183153" side_tool="true" weight="0.24919957" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32979852" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -465,13 +516,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32768923" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.26849896" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2682927" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -530,7 +581,8 @@
     <MESSAGE value="added blocked button submit if value task empty" />
     <MESSAGE value="added blocked button submit if value task empty in Project&#10;delete projects and tasks" />
     <MESSAGE value="Refactor DeleteButton to some reusable component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor DeleteButton to some reusable component" />
+    <MESSAGE value="Added function to change name of project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added function to change name of project" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/app/tasks/duck/index.js" />
@@ -546,16 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -613,16 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/DashBoard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-redux/lib/alternate-renderers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -650,31 +682,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Utils/functions/functions.js" />
     <entry file="file://$PROJECT_DIR$/src/components/DashBoard/MyTasks/duck/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/MyTasks/MyTasks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -750,23 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/AddProject/AddProject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/duck/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/duck/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -774,30 +769,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/duck/reducers.js">
+    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/duck/actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="32" column="108" lean-forward="true" selection-start-line="32" selection-start-column="108" selection-end-line="32" selection-end-column="108" />
+        <state relative-caret-position="231">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/MyTasks/Tasks/Tasks.js">
+    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/AddProject/AddProject.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="462">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="52" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/duck/reducers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NavBar/NavBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="38" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/DashBoard/Projects/Project/Project.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="87" lean-forward="true" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
+        <state relative-caret-position="231">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/MyTasks/MyTasks.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/MyTasks/MyTasks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/MyTasks/Task/Task.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/DashBoard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/MyTasks/Tasks/Tasks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/MyTasks/Task/Task.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DashBoard/DashBoard.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>

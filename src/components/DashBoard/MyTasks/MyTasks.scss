@@ -3,31 +3,6 @@
 //Settings
 @import "../../../css/scss/utils/settings";
 
-.MyTasks{
-	width: 70%;
-	&-items {
-		padding: 20px;
-	}
+.MyTasks-container{
 
-	&-item {
-		display: block;
-		cursor: pointer;
-		padding: 10px 20px;
-		box-sizing: border-box;
-		border-bottom: 20px solid transparent;
-		border-image: linear-gradient(to right, $secondaryColorDark 0%,$secondaryColorLight 100%);
-		border-image-slice: 1;
-		border-width: 1px;
-		border-radius: 5%;
-		&:first-child {
-			border-top: 1px solid transparent;
-		}
-		&:last-child {
-			border-bottom: none;
-		}
-		&:hover {
-			background-color: lighten($primaryColor, 2%);
-
-		}
-	}
 }

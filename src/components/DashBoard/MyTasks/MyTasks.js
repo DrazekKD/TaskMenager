@@ -7,7 +7,7 @@ import Task from "./Task/Task";
 class MyTasks extends Component{
 	render() {
 		return (
-			<div className="MyTasks">
+			<div className="MyTasks-container">
 				<h1>MyTasks</h1>
 				<Tasks/>
 				<AddTask/>

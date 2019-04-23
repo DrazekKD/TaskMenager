@@ -1,4 +1,5 @@
 import React, {Component}from 'react';
+import './Task.scss';
 import {connect} from 'react-redux';
 import DeleteButton from '../../../Utils/DeleteButton/DeleteButton';
 import CompletedButton from '../CompletedButton/CompletedButton'
@@ -21,7 +22,7 @@ class Task extends Component  {
 
 		if(task){
 			return (
-				<div key={task.id}>
+				<div key={task.id} className="Task-container">
 					<input
 						key={task.id}
 						value={task.name}
@@ -56,7 +57,7 @@ class Task extends Component  {
 			)
 		}else {
 			return(
-				<div><p>This task is not exist</p></div>
+				<div className="Task-container"><p>This task is not exist</p></div>
 			)
 		}
 

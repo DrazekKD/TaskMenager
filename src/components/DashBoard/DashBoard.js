@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './DashBoard.scss';
 import {Route, Switch} from "react-router-dom";
 import MyTasks from "./MyTasks/MyTasks";
 import Projects from "./Projects/Projects";
@@ -10,7 +11,7 @@ import * as ROUTES from "../../constants/routes"
 class DashBoard extends Component {
 	render() {
 		return (
-			<div className="DashBoard">
+			<div className="DashBoard-container">
 				<Switch>
 					<Route path={ROUTES.MY_TASK} component={MyTasks}></Route>
 					<Route path={ROUTES.PROJECTS} component={Projects}></Route>
