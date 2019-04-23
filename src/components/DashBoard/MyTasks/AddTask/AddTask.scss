@@ -4,7 +4,7 @@
 @import "../../../../css/scss/utils/settings";
 
 .AddTask-container {
-	width: 100%;
-	height: 100%;
-	grid-area: AddTask;
+	border: 1px solid #fff;
+	grid-column: 1/15;
+	grid-row: 1/2;
 }

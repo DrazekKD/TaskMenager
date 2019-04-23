@@ -4,7 +4,8 @@
 @import "../../../../css/scss/utils/settings";
 
 .Task-container{
-	grid-area: Task;
+	grid-column: 8/15;
+	grid-row: 2/15;
 	border: 1px solid #fff;
 
 }

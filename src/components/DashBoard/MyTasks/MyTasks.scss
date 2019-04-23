@@ -8,16 +8,6 @@
 	height: 100%;
 	display: grid;
 	grid-gap: 10px;
-	grid-template-areas:
-		". . AddTask . . . ."
-		"Tasks Tasks Tasks Tasks Task Task Task"
-		"Tasks Tasks Tasks Tasks Task Task Task"
-		"Tasks Tasks Tasks Tasks Task Task Task"
-		"Tasks Tasks Tasks Tasks Task Task Task"
-		"Tasks Tasks Tasks Tasks Task Task Task"
-		"Tasks Tasks Tasks Tasks Task Task Task"
-		"Tasks Tasks Tasks Tasks Task Task Task"
-		"Tasks Tasks Tasks Tasks Task Task Task"
-		"Tasks Tasks Tasks Tasks Task Task Task"
-		"Tasks Tasks Tasks Tasks Task Task Task";
+	grid-template-columns: repeat(12,1fr);
+	grid-template-rows: repeat(12,1fr);
 }

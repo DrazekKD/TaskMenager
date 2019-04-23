@@ -4,6 +4,7 @@
 @import "../../../../css/scss/utils/settings";
 
 .Tasks-container {
-	//border: 1px solid #fff;
-	grid-area: Tasks;
+	border: 1px solid #fff;
+	grid-column: 1/8;
+	grid-row: 2/15;
 }
