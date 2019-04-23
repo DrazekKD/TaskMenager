@@ -8,7 +8,6 @@ class MyTasks extends Component{
 	render() {
 		return (
 			<div className="MyTasks-container">
-				<h1>MyTasks</h1>
 				<Tasks/>
 				<AddTask/>
 				<Route path={`/MyTasks/:id`} component={Task}/>

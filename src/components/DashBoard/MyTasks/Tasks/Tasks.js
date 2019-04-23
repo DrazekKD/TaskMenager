@@ -1,10 +1,11 @@
 import React from 'react';
+import './Tasks.scss'
 import {connect} from 'react-redux';
 import {Link} from "react-router-dom";
 
 const Tasks = ({tasks}) => {
 	return (
-		<div>
+		<div className="Tasks-container">
 			{tasks.list.map(task =>
 					<Link to={`/MyTasks/${task.id}`} key={task.id}>
 						<div key={task.id}>

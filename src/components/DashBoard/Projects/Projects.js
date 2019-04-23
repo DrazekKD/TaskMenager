@@ -5,7 +5,7 @@ import AddProject from './AddProject/AddProject';
 class Projects extends Component {
 	render() {
 		return (
-			<div className="Projects">
+			<div className="Projects-container">
 				<h1>Projects</h1>
 				<Project/>
 				<AddProject/>

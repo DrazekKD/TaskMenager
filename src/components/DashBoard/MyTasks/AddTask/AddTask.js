@@ -1,4 +1,5 @@
 import React from 'react';
+import "./AddTask.scss"
 import { connect } from 'react-redux'
 import actions from '../duck/actions'
 
@@ -20,7 +21,7 @@ const AddTaskForm = ({add, tasks}) => {
 		};
 
 
-		return <input type={'button'} value={'Add new Task'} onClick={addTask}/>
+		return <input type={'button'} value={'Add new Task'} onClick={addTask} className="AddTask-container"/>
 
 };
 

@@ -3,8 +3,8 @@
 //Settings
 @import "../../../../css/scss/utils/settings";
 
-.Task-container{
-	grid-area: Task;
-	border: 1px solid #fff;
-
+.AddTask-container {
+	width: 100%;
+	height: 100%;
+	grid-area: AddTask;
 }
