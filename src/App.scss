@@ -5,17 +5,6 @@
 	background-color: $primaryColor;
 	display: grid;
 	grid-gap: 20px;
-	grid-template-areas:
-		"NavBar Header Header Header Header Header Header Header"
-		"NavBar DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard"
-		"NavBar DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard"
-		"NavBar DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard"
-		"NavBar DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard"
-		"NavBar DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard"
-		"NavBar DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard"
-		"NavBar DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard"
-		"NavBar DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard"
-		"NavBar DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard"
-		"NavBar DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard"
-		"NavBar DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard DashBoard"
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(12, 1fr);
 }

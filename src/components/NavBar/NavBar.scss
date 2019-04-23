@@ -5,8 +5,10 @@
 
 .Navbar-container {
 	background-color: $primaryColorDark;
-	grid-area: NavBar;
+	//grid-area: NavBar;
 	border: 1px solid #fff;
+	grid-column: 1/3;
+	grid-row: 1/15;
 }
 .Navbar {
 	&-logo {
